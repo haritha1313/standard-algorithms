@@ -8,8 +8,4 @@ This is an effort to implement standard algorithms using C++ covering the follow
 5. Network Flow
 
 Most code here are implementations of algorithms described in [Lecture Notes on Algorithm Analysis
-and Computational Complexity](https://larc.unt.edu/ian/books/free/lnoa.pdf).
-**Author**: 
-Ian Parberry<br/>
-Department of Computer Sciences<br/>
-University of North Texas<br/>
+and Computational Complexity.](https://larc.unt.edu/ian/books/free/lnoa.pdf)(_Author - Ian Parberry_)
