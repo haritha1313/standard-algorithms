@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main() 
+{
 	int t,n,cur_max,max_fin;
 	cin>>t;
 	while(t--)
