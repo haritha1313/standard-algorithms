@@ -6,6 +6,7 @@
 
 #include <stdio.h>
 
+//function that swap the numbers in the vector and ordain
 void Shell_sort(int v[], int size){
 	int i, j , value;
 	int gap = 1;
@@ -27,15 +28,23 @@ void Shell_sort(int v[], int size){
 }
 
 int main(){
+	/*
+	k is a counting variable
+	'size' is the size of the vector
+	v is the vector that receive the numbers
+	*/
 	int size,k;
 	scanf("%d",&size);
 	int v[size];
 
+	//looping structure to insert numbers in the vector
 	for(k = 0; k < size; k++){
 		scanf("%d",&v[k]);
 	}
+	//calling the function that realize the sorting
 	Shell_sort(v,size);
 
+	//looping structure to print in the screen the vector already sorted
 	for(k = 0; k < size; k++){
 		if(k != size-1){
 			printf("%d ",v[k]);
@@ -44,6 +53,6 @@ int main(){
 			printf("%d\n",v[k]);
 		}
 	}
-
+	//end of program
 	return 0;
 }
